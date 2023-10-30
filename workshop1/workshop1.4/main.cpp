@@ -66,8 +66,8 @@ void update(const sf::Vector2f &mousePosition, sf::Clock &clock, sf::Sprite &cat
 void redrawFrame(sf::RenderWindow &window, sf::Sprite &cat, sf::Sprite &pointer)
 {
     window.clear(sf::Color(0xFF, 0xFF, 0xFF));
-    window.draw(cat);
     window.draw(pointer);
+    window.draw(cat);
     window.display();
 }
 
